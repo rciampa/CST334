@@ -1,0 +1,133 @@
+﻿CST334        Homework 1     NAME:Richard D Ciampa 
+
+Due: 09/11/2013 (Thursday) 11:55(PM) 
+
+INSTRUCTION: 
+
+1. Copy this file (hw1.txt) to your directory. 
+
+2. Don't forget to write your name at the top. 
+   When you save the file, use the plain text format. 
+   Do not use a word processor such as Microsoft word. 
+
+3. Upload your text file on to iLearn HW1. 
+
+
+------------------------- ASSIGNMENT ------------------------- 
+
+1. Read A.1 and A.2 of "Reading Material: BSD UNIX" on iLearn. 
+   a) In what language are Unix and Linux written? 
+
+The original (AT&T) Unix was written in assembly, later versions were 
+written in C. Linux was originally and is today, written in C. 
+  
+       
+What does the language have to do with its success? 
+
+There are many reasons that the language used to write Unix & 
+Linux have made it popular. The predominant reason is that many 
+people knew the C language as it was an easier language to author in 
+and were able to contribute to the Linux kernel and many of the base 
+applications (utilities) that make-up a Linux distribution. The C language was popular for Unix because of its portability from hardware to hardware .
+
+   b) Does FreeBSD run on the Intel processor? Yes, and others too. 
+	i386, 486, AMD x86 & 64, PowerPc (Motorola) and Sparc64. 
+
+   c) What are the basic functions of an OS? The basic functions of an OS, 
+      are really kernel functions. The kernel allows the communication from 
+      utility or user applications to the hardware via the kernel. The hardware 
+      being the physical computer system, cpu, pci bridge, serial ports, 
+      hard drives, usb and so on. 
+  
+   d) What has Linux become so popular? There are many reasons, but here are a 
+      few: It is a duplication of a major industrial OS known as Unix. There 
+      were few places other than the scholastic arena to obtain training on 
+      a Unix system, Linux provides that for free. 
+
+      With the ability to run a Unix like system on inexpensive hardware like 
+      Intel, AMD, Power PC, IA64 and Sparc it opened the door to many languages 
+      that both the scholastic and hobbyist craved. 
+
+      The Linux open source kernel was and still is popular because anyone can 
+      take the kernel source and modify it to serve their own needs, it may 
+      just be the fact that you need a light-weight system to run on a small 
+      constrained piece of hardware or maybe you want to modify the kernel and 
+      some of the open source utility applications, NIS stack and other apps 
+      to make a computer system that operates like no other system on the 
+      planet, that along with encryption gives a heavy amour of security. 
+ 
+     Finally, there are today many development platforms, applications and 
+     business uses for Linux, and they are all free.........!   
+      
+2. Conduct your own research on the operating systems of i Phone 
+   and Android phones. Present comparison of the two operating 
+   systems using at least 100 words. 
+   At the end of your description, you should present your 
+   reference(s). 
+   (If you just copy and paste from the references 
+   (or web sites), you will get zero point.) 
+           
+
+3. Answer the questions. 
+   a) What is the name of a Python compiler used in Linux? 
+       Does the mlc104 machine have it? Well, Python is not compiled into 
+       binary files like other languages for example C, C++, Ada and others. 
+       Python is and interpreted language. However, Pythons interpreter is 
+       called simply python, you can test this by going to the terminal 
+       prompt and type "python" you will see that this installation has an 
+       old version of python installed 2.6.6, the most current release is 
+       3.4.x 
+               
+   b) Can you develop an android app in the Linux machine? 
+       If yes, present briefly how you would do it. Yes, Linux is Android’s 
+       native environment. The majority of Android applications are written 
+       in Java with supporting XML, Images and Text files. There are several 
+       ways to develop Android applications in a Linux/OS X or Windows 
+       environment. The first is, by downloading the Java JDK (not JRE) 
+       and writing Java classes. This is how it first was, then Android 
+       developed ADT (Android Development Kit) an SDK for the Eclipse IDE. 
+       The latest addition to the Android development capabilities is the 
+       Android Studio IDE, which when in production will be the premier 
+       IDE for developing Android applications for both phone and tablet. 
+
+       
+4. Conduct your own research on Max OS X and MS Windows 7 
+   on the Internet. Present advantages and disadvantages 
+   of Mac OS X over Windows 7 in at least 100 words. 
+   At the end of your description, you should present 
+   your reference(s). 
+   (If you just copy and paste from the references 
+   (or web sites), you will get zero point.) 
+
+The UI is amongst the largest differences that you will find from OS X to Windows 7. OS X has the Aqua desktop manager that unitizes the Dock vs. Windows 7's task bar. They both provide many of same essential features like, launching an application, web shortcuts or hyperlinks, file system folders and so on. Some of the most notable differences for power users are in the consistency of the OS behaviors. For example, in Windows 7 you can expect the same functionality from the UI as you get from the command line. In OS X, there are slight differences in the OS behaviors from the Aqua UI to the BSD terminal and its utilities.
+
+Additionally, Apples OS X is tightly bound to the hardware which puts Windows and OS X at their largest differences. Windows 7 is highly generalized and is able to run on literally thousands of different types of hardware from small constrained devices to parallel super computers. Apple on the other hand will only allow OS X on hardware that it produces and sells, while this makes supporting the OS easier, it also drives the cost factor, and limits the usage of OS X. The last bit is that  Apple has moved from its original Motorola CPU (since the 80's) to an Intel based hardware and peripherals. This makes the cost and limited hardware selection a real issue which is why the market share of the OS X based Mac less than Microsoft’s Windows 7. What Mac users are really paying for is high-grade building materiel’s and high-grade esoteric programming originally inspired by Next computers.
+
+5. a) What is GNU? GNU, was originally a Unix like operating system created 
+      by Richard Stallman, based on the GNU Hurd kernel(Asymmetric). The operating system 
+      was never released by the GNU project but many of the open source 
+      system utilities have since been ported to the Linux kernel and released 
+      with Linux distributions under the GNU public license. 
+ 
+   b) List 10 common commands you have learned in class: ls, cd, mkdir, pwd 
+      touch, cat, grep, less, more, tail, |, gcc, g++, vi, nano, hostname, 
+      zcat, and others.....  
+   
+
+   c) What are relative path and absolute path? Absolute path is the directory 
+      path that always starts from the "/" root mount point. A relative path 
+      is a path structure that starts from either the current directory or one 
+      or more directories above or before the current directory. Some examples 
+      of a relative path include, NextFolder/file, ../OtherDir/file, 
+      ../../UpTwoDir/file. 
+
+   d) Is Linux a Unix? No, but is does share many of the same capabilities 
+      and is POSIX compliant, so that applications that are able to run on 
+Unix naively can also run on Linux. Also a copy of real Unix is really      expensive and is particular about system hardware.
+
+   e) Provide 5 Linux&GNU distros: Red Hat, OpenSuSe, Ubuntu, Cent OS, 
+      FreeBSD, Debian, NetBSD, Be OS and others 
+   
+
+----------------------------------------------------------- 
+

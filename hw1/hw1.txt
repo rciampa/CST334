@@ -1,0 +1,126 @@
+CST334        Homework 1     NAME:Richard D Ciampa
+
+Due: 09/11/2013 (Thursday) 11:55(PM)
+
+INSTRUCTION:
+
+1. Copy this file (hw1.txt) to your directory.
+
+2. Don't forget to write your name at the top.
+   When you save the file, use the plain text format.
+   Do not use a word processor such as Microsoft word.
+
+3. Upload your text file on to iLearn HW1.
+
+
+------------------------- ASSIGNMENT -------------------------
+
+1. Read A.1 and A.2 of "Reading Material: BSD UNIX" on iLearn.
+   a) In what language are Unix and Linux written?
+	The origianl (AT&T) Unix was writen in asembly, later versions were
+	writen in C. Linux was originally and is today, writen in C.
+  
+       What does the language have to do with its success?
+	There are many reasons that the language used to write Unix &
+	Linux have made it popular. The prodomanat reason is that many
+        people knew the C language as it was an easier language to author in
+        and were able to contribute to the linux kernal and many of the base 
+        applications (utilities) that make-up a linux distrobution.
+
+   b) Does FreeBSD run on the Intel processor? Yes, and others too.
+	i386, 486, amd x86 & 64, PowerPc (Motorola) and Sparc64.
+
+   c) What are the basic functions of an OS? The basic functios of an OS,
+      are really kernal functions. The kernal allows the communication from
+      utility or user applications to the hardare via the kernal. The hardwar
+      being the phisical computer system, cpu, pci bridge, serial ports,
+      hard drives, usb and so on.
+  
+   d) What has Linux become so popular? There are many reasons, but here are a
+      few: It is a duplication of a major industrial OS known as Unix. There
+      were few places other than the scholastic arena to obtian training on
+      a Unix system be for linux.
+
+      With the ability to run a Unix like system on inexpensie harware like 
+      Intel, AMD, Power PC, IA64 and Sparc it opened the door to many languges
+      that both the scholastic and hobbiest craved.
+
+      The Linux open source kernal was and still is popular becuase anyone can
+      take the kernal source and modify it to serve their own needs, it may
+      just be the fact that you need a light-wieght system to run on a small
+      constraied piece of harware or maybe you want to modify the kernal and
+      some of the open source utility applications, NIS stack and other apps
+      to make a computer system that operates like no other system on the
+      planet, that along with encription gives a heavy amout of security.
+
+     Finnaly, there are today many development platforms, applications and
+     business uses for Linux, and they are all free.........!   
+      
+2. Conduct your own research on the operating systems of iPhone 
+   and Android phones. Present comparison of the two operating 
+   systems using at least 100 words.
+   At the end of your description, you should present your 
+   reference(s).
+   (If you just copy and paste from the references
+   (or web sites), you will get zero point.)
+           
+
+3. Answer the questions.
+   a) What is the name of a Python compiler used in Linux?
+       Does the mlc104 machine have it? Well, Python is not compiled into
+       bianary files like other languages for example C, C++, Ada and others.
+       Python is and interpreted language. However, Pythons intrepreter is
+       called simply python, you can test this by going to the terminal 
+       prompt and type "python" you will see that this installaton has an
+       old version of python installed 2.6.6, the most current release is
+       3.4.x
+               
+   b) Can you develop an android app in the Linux machine?
+       If yes, present briefly how you would do it. Yes, Linux is Andriod's
+       native environment. The majority of Andriod applications are written
+       in Java with supporting XML, Images and Text files. There are several
+       ways to develop Andriod applications in a Linux/OS X or Windows
+       environment. The first is, by downloading the Java JDK (not JRE)
+       and writting Java classes. This is how it first was, then Andriod
+       developed ADT (Andriod Development Kit) an SDK for the Eclipse IDE.
+       The latest addition to the Android development capabilities is the
+       Android Studio IDE, which when in production will be the premier
+       IDE for developing Andoid applications for both phone and tablet. 
+
+       
+4. Conduct your own research on Max OS X and MS Windows 7 
+   on the Internet. Present advantages and disadvantages 
+   of Mac OS X over Windows 7 in at least 100 words.
+   At the end of your description, you should present
+   your reference(s).
+   (If you just copy and paste from the references 
+   (or web sites), you will get zero point.)
+
+5. a) What is GNU? GNU, was origianally a Unix like operating system created
+      by Richard Stallman, based on the GNU Hurd kernal(Asymmeteric). The operating system
+      was never released by the GNU project but many of the open source
+      system utilities have since been ported to the Linux kernal and released
+      with Linux distibutions under the GNU public license.
+ 
+   b) List 10 common commands you have learned in class: ls, cd, mkdir, pwd
+      touch, cat, grep, less, more, tail, |, gcc, g++, vi, nano, hostname,
+      zcat, and others.....  
+   
+
+   c) What are relative path and absolute path? Absolute path is the directory
+      path that always starts from the "/" root mount point. A relative path
+      is a path structure that starts from either the current direcotry or one
+      or more directories above or before the current direcotry. Some examples
+      of a relative path include, NextFolder/file, ../OtherDir/file,
+      ../../UpTwoDir/file.
+
+   d) Is Linux a Unix? No, but is does share many of the same capabilities
+      and is POSIX compliant, so that applications that are able to run on
+      Unix natively can also run on Linux.
+
+   e) Provide 5 Linux&GNU distros: Red Hat, Open SuSe, Unbuntu, CentOS,
+      FreeBSD, Debian, NetBSD, BeOS and others
+   
+
+-----------------------------------------------------------
+
